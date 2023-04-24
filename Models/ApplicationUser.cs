@@ -6,7 +6,8 @@ namespace EShop.Models
 {
     public class ApplicationUser : IdentityUser
     {
-        public virtual ICollection<Product>? Products { get; set; }
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int Id { get; set; }
         public string? FirstName { get; set; }
         public string? LastName { get; set; }
         public virtual ICollection<ApplicationUser>? Users { get; set; }

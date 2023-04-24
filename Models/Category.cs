@@ -6,6 +6,7 @@ namespace EShop.Models
     public class Category
     {
         public int Id { get; set; }
+        public int Count { get; set; }
 
         [Required(ErrorMessage = "Numele categoriei este obligatoriu")]
         public string CategoryName { get; set; }
