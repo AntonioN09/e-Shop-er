@@ -9,8 +9,8 @@ namespace EShop.Models
         public string? UserId { get; set; }
         public int? ProductId { get; set; }
 
-        public virtual Product? Product { get; set; }
+        public virtual Product Product { get; set; }
 
-        public virtual ApplicationUser? User { get; set; }
+        public virtual Cart Cart { get; set; }
     }
 }

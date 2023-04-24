@@ -6,25 +6,29 @@ namespace EShop.Models
     public class Product
     {
         public int Id { get; set; }
+
         [Required(ErrorMessage = "Numele este obligatoriu")]
         [StringLength(100, ErrorMessage = "Numele nu poate avea mai mult de 100 de caractere")]
         [MinLength(5, ErrorMessage = "Numele trebuie sa aiba mai mult de 5 de caractere")]
         public string Name { get; set; }
+
         [Required(ErrorMessage = "Descrierea produsului este obligatorie")]
         public string Description { get; set; }
-        [Required(ErrorMessage = "Pretul produsului este obligatoriu")]
 
+        [Required(ErrorMessage = "Pretul produsului este obligatoriu")]
         public decimal Price { get; set; } = 0;
+
         [Url]
         public string Photo { get; set; }
+
         [Required(ErrorMessage = "Categoria este obligatorie")]
         public int? CategoryId { get; set; }
 
-        public string? UserId { get; set; }
-
         public virtual Category? Category { get; set; }
 
-        public virtual ICollection<Cart>? Carts { get; set; }
+        public virtual ICollection<Order>? Orders { get; set; }
+
+        public virtual ApplicationUser User { get; set; }
 
         [NotMapped]
         public IEnumerable<SelectListItem>? Categ { get; set; }

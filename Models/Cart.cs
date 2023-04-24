@@ -10,7 +10,7 @@ namespace EShop.Models
     public int? ProductId { get; set; }
     public int Count { get; set; }
 
-    public virtual ApplicationUser? User { get; set; }
-    public virtual Product? Product { get; set; }
+    public virtual ApplicationUser User { get; set; }
+    public virtual ICollection<Order>? Orders { get; set; }
     }
 }

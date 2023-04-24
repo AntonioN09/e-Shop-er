@@ -7,14 +7,17 @@ namespace EShop.Models
     public class ApplicationUser : IdentityUser
     {
         public virtual ICollection<Product>? Products { get; set; }
-
-        public virtual ICollection<ApplicationUser>? Users { get; set; }
-
         public string? FirstName { get; set; }
         public string? LastName { get; set; }
-        public virtual ICollection<Cart>? Carts { get; set; }
+        public virtual ICollection<ApplicationUser>? Users { get; set; }
 
-        public virtual ICollection<Order>? Orders { get; set; }
+        public virtual Cart? Cart { get; set; }
+
+        public virtual History? History { get; set; }
+
+        public virtual ICollection<Acquisition>? Acquisitions { get; set; }
+
+        public virtual ICollection<Notification>? Notifications { get; set; }
 
         public virtual ICollection<ApplicationUserRole>? UserRoles { get; set; }
 
