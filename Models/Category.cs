@@ -3,6 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 namespace EShop.Models
 {
+    // This entity is useful for product sorting
     public class Category
     {
         public int Id { get; set; }

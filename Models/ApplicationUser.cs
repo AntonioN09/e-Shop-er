@@ -6,6 +6,7 @@ namespace EShop.Models
 {
     public class ApplicationUser : IdentityUser
     {
+        // Automatically generate the id of the user
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
         public string? FirstName { get; set; }
@@ -20,6 +21,7 @@ namespace EShop.Models
 
         public virtual ICollection<Notification>? Notifications { get; set; }
 
+        //The roles of the user: user/admin
         public virtual ICollection<ApplicationUserRole>? UserRoles { get; set; }
 
         [NotMapped]

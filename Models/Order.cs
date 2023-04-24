@@ -2,6 +2,7 @@
 
 namespace EShop.Models
 {
+    //This entity describes the interest of a user for a product, not exactly a purchase
     public class Order
     {
         [Key]

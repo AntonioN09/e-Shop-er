@@ -7,14 +7,20 @@ namespace EShop.Controllers
 {
     public class ProductsController : Controller
     {
+        // Bind with the database: dependency injection
         private readonly ApplicationDbContext db;
+
+        // Must initialize everything in the constructor
         public ProductsController(ApplicationDbContext context)
         {
             db = context;
         }
+
+        // The view of our main page
         public IActionResult Index()
 
         {
+            // get all products
             var products = from product in db.Products
                            orderby product.Name
                            select product;
@@ -24,6 +30,7 @@ namespace EShop.Controllers
             return View();
         }
 
+        //find product by id
         public ActionResult Show(int Id)
         {
             Product product = db.Products.Find(Id);
@@ -35,6 +42,8 @@ namespace EShop.Controllers
         {
             return View();
         }
+
+        //create a new product
         [HttpPost]
         public IActionResult New(Product p)
         {
@@ -49,12 +58,15 @@ namespace EShop.Controllers
                 return View();
             }
         }
+
+        // modify a product by id
         public IActionResult Edit(int Id)
         {
             Product product = db.Products.Find(Id);
             ViewBag.Product = product;
             return View();
         }
+
         [HttpPost]
         public ActionResult Edit(int Id, Product requestProduct)
         {

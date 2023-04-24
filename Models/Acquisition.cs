@@ -9,6 +9,7 @@ namespace EShop.Models
         
         public Product Product { get; set; }
 
+        //Initialized with current date time
         public DateTime CreatedDate { get; set; }
 
         public virtual ApplicationUser User { get; set; }
