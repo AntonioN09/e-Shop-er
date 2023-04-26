@@ -1,12 +1,156 @@
-Trade-in offer
-Super value deals
-On all products
-Save more with coupons & up to 70% off
-Shop now
+<!DOCTYPE html>
+<html>
 
+<head>
+    <title>User Profile</title>
+    <style>
+        /* Styles for profile card */
+        .profile-card {
+            width: 300px;
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin: 0 auto;
+            margin-top: 50px;
+        }
 
-Oferta limitata
-Reduceri de sezon
-La toate articolele de imbracaminte
-Preturi cu pana la 70% reducere!
-Cumpara acum
+        .profile-card h2 {
+            margin: 0;
+            padding: 0;
+        }
+
+        .profile-card p {
+            margin-top: 5px;
+            margin-bottom: 20px;
+        }
+
+        .profile-card label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .profile-card input {
+            width: 100%;
+            padding: 5px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+        }
+
+        /* Styles for last orders section */
+        .last-commands {
+            margin-top: 30px;
+        }
+
+        .last-commands h3 {
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+
+        .last-commands ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        .last-commands li {
+            margin-bottom: 5px;
+        }
+
+        /* Styles for buttons */
+        .btn {
+            display: inline-block;
+            padding: 8px 12px;
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+            border: none;
+            font-size: 14px;
+            margin-right: 10px;
+        }
+
+        .btn.edit {
+            background-color: #28a745;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="profile-card">
+        <h2>User Profile</h2>
+        <p id="username">Username: JohnSnow</p>
+        <label for="name">Name:</label>
+        <input type="text" id="name" value="John Snow" disabled>
+        <label for="age">Age:</label>
+        <input type="text" id="age" value="30" disabled>
+        <label for="email">Email:</label>
+        <input type="text" id="email" value="johnsnow@yahoo.com" disabled>
+        <button class="btn edit" onclick="editProfile()">Edit</button>
+        <button class="btn save" onclick="saveProfile()">Save</button>
+    </div>
+    <div class="last-commands">
+        <h3>Last Orders</h3>
+        <ul id="commandsList">
+            <li>Product A</li>
+            <li>Product B</li>
+            <li>Product C</li>
+        </ul>
+    </div>
+
+    <script>
+        let isEditing = false; // Flag to track if profile is being edited
+        const profileData = { // Profile data object
+            name: "John Snow",
+            age: 25,
+            email: "johnsnow@yahoo.com"
+        };
+
+        // Function to toggle edit mode
+        function editProfile() {
+            isEditing = !isEditing; // Toggle edit mode
+            const nameInput = document.getElementById("name");
+            const ageInput = document.getElementById("age");
+            const emailInput = document.getElementById("email");
+            const editBtn = document.querySelector(".btn.edit");
+            const saveBtn = document.querySelector(".btn.save");
+if (isEditing) {
+nameInput.disabled = false;
+ageInput.disabled = false;
+emailInput.disabled = false;
+editBtn.innerHTML = "Cancel";
+saveBtn.style.display = "inline-block";
+} else {
+nameInput.disabled = true;
+ageInput.disabled = true;
+emailInput.disabled = true;
+editBtn.innerHTML = "Edit";
+saveBtn.style.display = "none";
+}
+}    // Function to save profile data
+    function saveProfile() {
+        const nameInput = document.getElementById("name");
+        const ageInput = document.getElementById("age");
+        const emailInput = document.getElementById("email");
+        const username = document.getElementById("username");
+        const commandsList = document.getElementById("commandsList");
+
+        // Update profile data object with new values
+        profileData.name = nameInput.value;
+        profileData.age = ageInput.value;
+        profileData.email = emailInput.value;
+
+        // Update UI with new values
+        username.innerHTML = "Username: " + profileData.name;
+        commandsList.innerHTML = "<li>Product D</li><li>Product E</li><li>Product F</li>"; // Example of updated last commands
+
+        // Show confirmation popup
+        alert("Profile information has been updated!");
+
+        // Update UI with new values
+username.innerHTML = "Username: " + nameInput.value;
+commandsList.innerHTML = "<li>Product D</li><li>Product E</li><li>Product F</li>"; // Example of updated last commands
+
+        // Toggle edit mode
+        isEditing = false;
+        editProfile();
+    }
+</script>
+</body>
+</html>
