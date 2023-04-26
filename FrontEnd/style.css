@@ -237,3 +237,59 @@ body {
   width: 30%;
   height: 30%;
 }
+
+/* pentru shop.html */
+.magazin1 {
+  text-align: center;
+  margin-top: 4%;
+}
+
+/* pentru profile.html */
+.profile-card {
+  width: 300px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.profile-card h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.profile-card p {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.profile-card label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.profile-card input {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+/* Styles for last orders section */
+.last-commands {
+  margin-top: 30px;
+}
+
+.last-commands h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.last-commands ul {
+  margin: 0;
+  padding: 0;
+}
+
+.last-commands li {
+  margin-bottom: 5px;
+}
