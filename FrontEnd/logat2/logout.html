@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Logout</title>
+</head>
+
+<body>
+    <h2>Logout</h2>
+    <p>Are you sure you want to logout?</p>
+    <button onclick="logout()">Logout</button>
+
+    <script>
+        function logout() {
+            localStorage.clear(); // clear the saved username and password
+            alert('You have been logged out.');
+            window.location.href = 'index.html'; // redirect to index.html
+        }
+    </script>
+</body>
+
+</html>

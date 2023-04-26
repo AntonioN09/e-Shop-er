@@ -9,7 +9,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
+
+
+
+
 <body>
+
     <section id="header">
         <h3>Proiect MDS - Site de anunturi online</h3>
 
@@ -41,6 +46,36 @@
             </ul>
         </div>
     </section>
+
+
+
+    <h2>Login</h2>
+    <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+        <input type="submit" value="Login" onclick="validateLogin(event)">
+    </form>
+
+    <script>
+        function validateLogin(event) {
+            event.preventDefault(); // prevent the form from submitting
+
+            // get the values of the username and password input fields
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            // check if the username and password are correct
+            if (username === 'yourUsername' && password === 'yourPassword') {
+                alert('Login successful!');
+                window.location.href = 'index.html'; // redirect to index.html
+            } else {
+                alert('Invalid username or password');
+            }
+        }
+    </script>
+
 </body>
 
 </html>

@@ -9,7 +9,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
+
+
 <body>
+
     <section id="header">
         <h3>Proiect MDS - Site de anunturi online</h3>
 
@@ -41,6 +44,37 @@
             </ul>
         </div>
     </section>
+
+
+
+
+    <h2>Register</h2>
+    <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+        <input type="submit" value="Register" onclick="registerUser(event)">
+    </form>
+
+    <script>
+        function registerUser(event) {
+            event.preventDefault(); // prevent the form from submitting
+
+            // get the values of the username and password input fields
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            // save the username and password to localStorage
+            localStorage.setItem('username', username);
+            localStorage.setItem('password', password);
+
+            alert('Registration successful!');
+            window.location.href = 'index.html'; // redirect to index.html
+        }
+    </script>
+
 </body>
+
 
 </html>
