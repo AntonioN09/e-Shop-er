@@ -46,16 +46,28 @@ namespace EShop.Controllers
 
         //create a new product
         [HttpPost]
-        public IActionResult New(Product p)
+        public IActionResult New(String Name, String Description, int Price)
         {
             try
             {
+                Product p = new Product();
+                p.Name = Name;
+                p.Description = Description;
+                p.Price = Price;
                 db.Products.Add(p);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                Console.WriteLine("\nMessage ---\n{0}", ex.Message);
+                Console.WriteLine(
+                    "\nHelpLink ---\n{0}", ex.HelpLink);
+                Console.WriteLine("\nSource ---\n{0}", ex.Source);
+                Console.WriteLine(
+                    "\nStackTrace ---\n{0}", ex.StackTrace);
+                Console.WriteLine(
+                    "\nTargetSite ---\n{0}", ex.TargetSite);
                 return View();
             }
         }

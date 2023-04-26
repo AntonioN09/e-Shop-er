@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace EShop.Models
 {
@@ -6,13 +7,14 @@ namespace EShop.Models
     public class Order
     {
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
-        public DateTime CreatedDate { get; set; }
+        public DateTime? CreatedDate { get; set; }
         public string? UserId { get; set; }
         public int? ProductId { get; set; }
 
-        public virtual Product Product { get; set; }
+        public virtual Product? Product { get; set; }
 
-        public virtual Cart Cart { get; set; }
+        public virtual Cart? Cart { get; set; }
     }
 }

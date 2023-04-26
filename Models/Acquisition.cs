@@ -7,11 +7,11 @@ namespace EShop.Models
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
         
-        public Product Product { get; set; }
+        public Product? Product { get; set; }
 
         //Initialized with current date time
-        public DateTime CreatedDate { get; set; }
+        public DateTime? CreatedDate { get; set; }
 
-        public virtual ApplicationUser User { get; set; }
+        public virtual ApplicationUser? User { get; set; }
     }
 }
