@@ -16,6 +16,7 @@ namespace EShop.Controllers
             db = context;
         }
 
+
         // The view of our main page
         public IActionResult Index()
 

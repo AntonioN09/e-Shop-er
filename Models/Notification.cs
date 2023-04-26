@@ -9,7 +9,10 @@ namespace EShop.Models
         
         //Used to express what kind of notification: system/discount/informative
         public String Title { get; set; }
+
         public String Description { get; set; }
+
+        public Boolean IsActive { get; set; }
 
         public DateTime CreatedDate { get; set;}
 
