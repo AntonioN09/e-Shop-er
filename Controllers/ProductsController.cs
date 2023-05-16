@@ -1,6 +1,7 @@
 ﻿using EShop.Data;
 using EShop.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System;
 
 namespace EShop.Controllers
@@ -99,6 +100,10 @@ namespace EShop.Controllers
             }
         }
        
-        
+        public ActionResult GetProductsInCart(int CartId)
+        {
+            var applicationDbContext = db.Products.Include(p => p.CartId == CartId);
+            return View(await applicationDbContext.ToListAsync());
+        }
     }
 }

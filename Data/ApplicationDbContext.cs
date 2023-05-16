@@ -64,5 +64,8 @@ namespace EShop.Data
                 .WithOne(p => p.Category);
         }
 
+        //add relations to database
+        public DbSet<EShop.Models.ApplicationUserRole> ApplicationUserRole { get; set; } = default!;
+
     }
 }
