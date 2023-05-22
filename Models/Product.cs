@@ -28,7 +28,7 @@ namespace EShop.Models
 
         public virtual ICollection<Order>? Orders { get; set; }
 
-        public virtual ApplicationUser? User { get; set; }
+        public virtual User? User { get; set; }
 
         [NotMapped]
         public IEnumerable<SelectListItem>? Categ { get; set; }

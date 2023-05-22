@@ -100,10 +100,10 @@ namespace EShop.Controllers
             }
         }
        
-        public ActionResult GetProductsInCart(int CartId)
+      /*  public ActionResult GetProductsInCart(int CartId)
         {
-            var applicationDbContext = db.Products.Include(p => p.CartId == CartId);
+            var applicationDbContext = db.Products.Include(p => p.Cart == CartId);
             return View(await applicationDbContext.ToListAsync());
-        }
+        }*/
     }
 }

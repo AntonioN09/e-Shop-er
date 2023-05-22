@@ -27,24 +27,24 @@ namespace EShop.Data
             base.OnModelCreating(modelBuilder);
 
             //One user may have many notifications
-            modelBuilder.Entity<ApplicationUser>()
+            modelBuilder.Entity<User>()
                 .HasMany(u => u.Notifications)
                 .WithOne(n => n.User);
 
             //One user must have a history
-            modelBuilder.Entity<ApplicationUser>()
+            modelBuilder.Entity<User>()
                 .HasOne(u => u.History)
                 .WithOne(h => h.User)
                 .HasForeignKey<History>(h => h.UserId);
 
             //One user must have a cart
-            modelBuilder.Entity<ApplicationUser>()
+            modelBuilder.Entity<User>()
                 .HasOne(u => u.Cart)
                 .WithOne(c => c.User)
                 .HasForeignKey<Cart>(c => c.UserId);
 
             //One user may have many acquisitions
-            modelBuilder.Entity<ApplicationUser>()
+            modelBuilder.Entity<User>()
                 .HasMany(u => u.Acquisitions)
                 .WithOne(a => a.User);
 
@@ -66,6 +66,9 @@ namespace EShop.Data
 
         //add relations to database
         public DbSet<EShop.Models.ApplicationUserRole> ApplicationUserRole { get; set; } = default!;
+
+        //add relations to database
+        public DbSet<EShop.Models.User> User { get; set; } = default!;
 
     }
 }

@@ -1,29 +1,47 @@
-﻿@model IEnumerable<EShop.Models.ApplicationUserRole>
+﻿@model IEnumerable<EShop.Models.User>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "UserIndex";
 }
 
-<h1>Index</h1>
+<style>
+    /* Styles for buttons */
+    .btn {
+        display: inline-block;
+        padding: 8px 12px;
+        background-color: #007bff;
+        color: #fff;
+        cursor: pointer;
+        border: none;
+        font-size: 14px;
+        margin-right: 10px;
+    }
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+        .btn.edit {
+            background-color: #28a745;
+        }
+</style>
+
+<div class="profile-card">
+    <h2>User Profile</h2>
+    <p id="username">Username: JohnSnow</p>
+    <label for="name">Name:</label>
+    <input type="text" id="name" value="John Snow" disabled>
+    <label for="age">Age:</label>
+    <input type="text" id="age" value="30" disabled>
+    <label for="email">Email:</label>
+    <input type="text" id="email" value="johnsnow@yahoo.com" disabled>
+    <button class="btn edit">Edit</button>
+    <button class="btn save">Save</button>
+</div>
+
+<br><br>
+
+<div class="last-commands">
+    <h3>Last Orders</h3>
+    <ul id="commandsList">
+        <li>Product A</li>
+        <li>Product B</li>
+        <li>Product C</li>
+    </ul>
+</div>

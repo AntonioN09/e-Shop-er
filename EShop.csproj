@@ -8,6 +8,28 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\img\model.png" />
+    <Content Remove="wwwroot\img\product1.jpg" />
+    <Content Remove="wwwroot\img\product2.jpg" />
+    <Content Remove="wwwroot\img\product3.jpeg" />
+    <Content Remove="wwwroot\img\product4.jpg" />
+    <Content Remove="wwwroot\img\product5.jpg" />
+    <Content Remove="wwwroot\img\product6.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\style.css" />
+    <None Include="wwwroot\img\model.png" />
+    <None Include="wwwroot\img\model1.jpg" />
+    <None Include="wwwroot\img\product1.jpg" />
+    <None Include="wwwroot\img\product2.jpg" />
+    <None Include="wwwroot\img\product3.jpeg" />
+    <None Include="wwwroot\img\product4.jpg" />
+    <None Include="wwwroot\img\product5.jpg" />
+    <None Include="wwwroot\img\product6.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="7.0.5" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.5" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="7.0.5" />

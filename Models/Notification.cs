@@ -16,6 +16,6 @@ namespace EShop.Models
 
         public DateTime? CreatedDate { get; set;}
 
-        public virtual ApplicationUser? User { get; set; }
+        public virtual User? User { get; set; }
     }
 }

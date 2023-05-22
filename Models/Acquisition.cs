@@ -12,6 +12,6 @@ namespace EShop.Models
         //Initialized with current date time
         public DateTime? CreatedDate { get; set; }
 
-        public virtual ApplicationUser? User { get; set; }
+        public virtual User? User { get; set; }
     }
 }
