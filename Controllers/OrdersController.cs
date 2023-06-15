@@ -163,6 +163,11 @@ namespace EShop.Controllers
         private bool OrderExists(Guid id)
         {
           return (_context.Orders?.Any(e => e.Id == id)).GetValueOrDefault();
+
+
+
+
+
         }
 
         public async Task<IActionResult> GetOrdersOfProduct(Guid ProductId)
