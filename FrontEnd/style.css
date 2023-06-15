@@ -35,7 +35,16 @@ p {
   margin: 15px 0 20px 0;
 }
 
-.section-p1 {
+.camasii,
+.jeanss,
+.gecii,
+.tricourii,
+.costumee,
+.gentii,
+.topuri,
+.rochii,
+.pantofii,
+.fustei {
   padding: 40px 80px;
 }
 
@@ -179,11 +188,29 @@ body {
   background-color: #fff2e5;
 }
 
-#product1 {
+#camasi,
+#jeans,
+#geci,
+#tricouri,
+#costume,
+#genti,
+#topuri,
+#rochi,
+#pantofi,
+#fuste {
   text-align: center;
 }
 
-#product1 .pro-container {
+#camasi .pro-container,
+#jeans .pro-container,
+#geci .pro-container,
+#tricouri .pro-container,
+#costume .pro-container,
+#genti .pro-container,
+#topuri .pro-container,
+#rochi .pro-container,
+#pantofi .pro-container,
+#fuste .pro-container {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -191,7 +218,16 @@ body {
   flex-wrap: wrap;
 }
 
-#product1 .pro {
+#camasi .pro,
+#jeans .pro,
+#geci .pro,
+#tricouri .pro,
+#costume .pro,
+#genti .pro,
+#topuri .pro,
+#rochi .pro,
+#pantofi .pro,
+#fuste .pro {
   width: 23%;
   min-width: 250px;
   padding: 10px 12px;
@@ -204,36 +240,65 @@ body {
   position: relative;
 }
 
-#product1 .pro:hover {
+#camasi .pro:hover,
+#jeans .pro:hover,
+#geci .pro:hover,
+#tricouri .pro:hover,
+#costume .pro:hover,
+#genti .pro:hover,
+#topuri .pro:hover,
+#rochi .pro:hover,
+#pantofi .pro:hover,
+#fuste .pro:hover {
   box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
 }
 
-#imgproduct1 {
+#imgcamasa1,
+#imgcamasa2,
+#imgcamasa3,
+#imgcamasa4,
+#imgcamasa5,
+#imgcamasa6 {
   width: 30%;
   height: 30%;
 }
 
-#imgproduct2 {
+#imgjeans1,
+#imgjeans2,
+#imgjeans3,
+#imgjeans4,
+#imgjeans5,
+#imgjeans6 {
   width: 30%;
   height: 30%;
 }
 
-#imgproduct3 {
+#imggeaca1,
+#imggeaca2,
+#imggeaca3,
+#imggeaca4,
+#imggeaca5,
+#imggeaca6 {
   width: 30%;
   height: 30%;
 }
 
-#imgproduct4 {
+#imgtricou1,
+#imgtricou2,
+#imgtricou3,
+#imgtricou4,
+#imgtricou5,
+#imgtricou6 {
   width: 30%;
   height: 30%;
 }
 
-#imgproduct5 {
-  width: 30%;
-  height: 30%;
-}
-
-#imgproduct6 {
+#imgcostum1,
+#imgcostum2,
+#imgcostum3,
+#imgcostum4,
+#imgcostum5,
+#imgcostum6 {
   width: 30%;
   height: 30%;
 }
@@ -292,4 +357,59 @@ body {
 
 .last-commands li {
   margin-bottom: 5px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#imggeanta1,
+#imggeanta2,
+#imggeanta3 {
+  width: 30%;
+  height: 30%;
+}
+
+#imgtop1,
+#imgtop2,
+#imgtop3,
+#imgtop4,
+#imgtop5,
+#imgtop6 {
+  width: 30%;
+  height: 30%;
+}
+
+#imgrochie1,
+#imgrochie2,
+#imgrochie3,
+#imgrochie4,
+#imgrochie5 {
+  width: 30%;
+  height: 30%;
+}
+
+#imgpantofi1,
+#imgpantofi2,
+#imgpantofi3,
+#imgpantofi4,
+#imgpantofi5 {
+  width: 30%;
+  height: 30%;
+}
+
+#imgfusta1,
+#imgfusta2 {
+  width: 30%;
+  height: 30%;
+}
+
+.subtitlu-shop {
+  margin-left: 10%;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  line-height: 0;
 }
