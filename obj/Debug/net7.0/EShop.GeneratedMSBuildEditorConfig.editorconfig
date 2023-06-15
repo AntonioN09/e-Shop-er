@@ -9,205 +9,205 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = EShop
 build_property.RootNamespace = EShop
-build_property.ProjectDir = C:\Users\Toni\Desktop\Proiecte\MDS\Proiect_MDS\
+build_property.ProjectDir = C:\Users\Svico\Downloads\e-Shop-er-main\proiect mds\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Toni\Desktop\Proiecte\MDS\Proiect_MDS
+build_property.MSBuildProjectDirectory = C:\Users\Svico\Downloads\e-Shop-er-main\proiect mds
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Toni/Desktop/Proiecte/MDS/Proiect_MDS/Views/Acquisitions/Create.cshtml]
+[C:/Users/Svico/Downloads/e-Shop-er-main/proiect mds/Views/Acquisitions/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNxdWlzaXRpb25zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Toni/Desktop/Proiecte/MDS/Proiect_MDS/Views/Acquisitions/Delete.cshtml]
+[C:/Users/Svico/Downloads/e-Shop-er-main/proiect mds/Views/Acquisitions/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNxdWlzaXRpb25zXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Toni/Desktop/Proiecte/MDS/Proiect_MDS/Views/Acquisitions/Details.cshtml]
+[C:/Users/Svico/Downloads/e-Shop-er-main/proiect mds/Views/Acquisitions/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNxdWlzaXRpb25zXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Toni/Desktop/Proiecte/MDS/Proiect_MDS/Views/Acquisitions/Edit.cshtml]
+[C:/Users/Svico/Downloads/e-Shop-er-main/proiect mds/Views/Acquisitions/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNxdWlzaXRpb25zXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Toni/Desktop/Proiecte/MDS/Proiect_MDS/Views/Acquisitions/Index.cshtml]
+[C:/Users/Svico/Downloads/e-Shop-er-main/proiect mds/Views/Acquisitions/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNxdWlzaXRpb25zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Toni/Desktop/Proiecte/MDS/Proiect_MDS/Views/Auth/Inregistrare.cshtml]
+[C:/Users/Svico/Downloads/e-Shop-er-main/proiect mds/Views/Auth/Inregistrare.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxJbnJlZ2lzdHJhcmUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Toni/Desktop/Proiecte/MDS/Proiect_MDS/Views/Auth/Logare.cshtml]
+[C:/Users/Svico/Downloads/e-Shop-er-main/proiect mds/Views/Auth/Logare.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dhcmUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Toni/Desktop/Proiecte/MDS/Proiect_MDS/Views/Carts/Create.cshtml]
+[C:/Users/Svico/Downloads/e-Shop-er-main/proiect mds/Views/Carts/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Toni/Desktop/Proiecte/MDS/Proiect_MDS/Views/Carts/Delete.cshtml]
+[C:/Users/Svico/Downloads/e-Shop-er-main/proiect mds/Views/Carts/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Toni/Desktop/Proiecte/MDS/Proiect_MDS/Views/Carts/Details.cshtml]
+[C:/Users/Svico/Downloads/e-Shop-er-main/proiect mds/Views/Carts/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Toni/Desktop/Proiecte/MDS/Proiect_MDS/Views/Carts/Edit.cshtml]
+[C:/Users/Svico/Downloads/e-Shop-er-main/proiect mds/Views/Carts/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Toni/Desktop/Proiecte/MDS/Proiect_MDS/Views/Carts/Index.cshtml]
+[C:/Users/Svico/Downloads/e-Shop-er-main/proiect mds/Views/Carts/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Toni/Desktop/Proiecte/MDS/Proiect_MDS/Views/Categories/Create.cshtml]
+[C:/Users/Svico/Downloads/e-Shop-er-main/proiect mds/Views/Categories/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Toni/Desktop/Proiecte/MDS/Proiect_MDS/Views/Categories/Delete.cshtml]
+[C:/Users/Svico/Downloads/e-Shop-er-main/proiect mds/Views/Categories/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Toni/Desktop/Proiecte/MDS/Proiect_MDS/Views/Categories/Details.cshtml]
+[C:/Users/Svico/Downloads/e-Shop-er-main/proiect mds/Views/Categories/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Toni/Desktop/Proiecte/MDS/Proiect_MDS/Views/Categories/Edit.cshtml]
+[C:/Users/Svico/Downloads/e-Shop-er-main/proiect mds/Views/Categories/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Toni/Desktop/Proiecte/MDS/Proiect_MDS/Views/Categories/Index.cshtml]
+[C:/Users/Svico/Downloads/e-Shop-er-main/proiect mds/Views/Categories/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Toni/Desktop/Proiecte/MDS/Proiect_MDS/Views/Histories/Create.cshtml]
+[C:/Users/Svico/Downloads/e-Shop-er-main/proiect mds/Views/Histories/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlzdG9yaWVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Toni/Desktop/Proiecte/MDS/Proiect_MDS/Views/Histories/Delete.cshtml]
+[C:/Users/Svico/Downloads/e-Shop-er-main/proiect mds/Views/Histories/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlzdG9yaWVzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Toni/Desktop/Proiecte/MDS/Proiect_MDS/Views/Histories/Details.cshtml]
+[C:/Users/Svico/Downloads/e-Shop-er-main/proiect mds/Views/Histories/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlzdG9yaWVzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Toni/Desktop/Proiecte/MDS/Proiect_MDS/Views/Histories/Edit.cshtml]
+[C:/Users/Svico/Downloads/e-Shop-er-main/proiect mds/Views/Histories/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlzdG9yaWVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Toni/Desktop/Proiecte/MDS/Proiect_MDS/Views/Histories/Index.cshtml]
+[C:/Users/Svico/Downloads/e-Shop-er-main/proiect mds/Views/Histories/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGlzdG9yaWVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Toni/Desktop/Proiecte/MDS/Proiect_MDS/Views/Home/Index.cshtml]
+[C:/Users/Svico/Downloads/e-Shop-er-main/proiect mds/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Toni/Desktop/Proiecte/MDS/Proiect_MDS/Views/Home/Privacy.cshtml]
+[C:/Users/Svico/Downloads/e-Shop-er-main/proiect mds/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Toni/Desktop/Proiecte/MDS/Proiect_MDS/Views/Notifications/Create.cshtml]
+[C:/Users/Svico/Downloads/e-Shop-er-main/proiect mds/Views/Notifications/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWZpY2F0aW9uc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Toni/Desktop/Proiecte/MDS/Proiect_MDS/Views/Notifications/Delete.cshtml]
+[C:/Users/Svico/Downloads/e-Shop-er-main/proiect mds/Views/Notifications/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWZpY2F0aW9uc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Toni/Desktop/Proiecte/MDS/Proiect_MDS/Views/Notifications/Details.cshtml]
+[C:/Users/Svico/Downloads/e-Shop-er-main/proiect mds/Views/Notifications/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWZpY2F0aW9uc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Toni/Desktop/Proiecte/MDS/Proiect_MDS/Views/Notifications/Edit.cshtml]
+[C:/Users/Svico/Downloads/e-Shop-er-main/proiect mds/Views/Notifications/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWZpY2F0aW9uc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Toni/Desktop/Proiecte/MDS/Proiect_MDS/Views/Notifications/Index.cshtml]
+[C:/Users/Svico/Downloads/e-Shop-er-main/proiect mds/Views/Notifications/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWZpY2F0aW9uc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Toni/Desktop/Proiecte/MDS/Proiect_MDS/Views/Orders/Create.cshtml]
+[C:/Users/Svico/Downloads/e-Shop-er-main/proiect mds/Views/Orders/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Toni/Desktop/Proiecte/MDS/Proiect_MDS/Views/Orders/Delete.cshtml]
+[C:/Users/Svico/Downloads/e-Shop-er-main/proiect mds/Views/Orders/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Toni/Desktop/Proiecte/MDS/Proiect_MDS/Views/Orders/Details.cshtml]
+[C:/Users/Svico/Downloads/e-Shop-er-main/proiect mds/Views/Orders/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Toni/Desktop/Proiecte/MDS/Proiect_MDS/Views/Orders/Edit.cshtml]
+[C:/Users/Svico/Downloads/e-Shop-er-main/proiect mds/Views/Orders/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Toni/Desktop/Proiecte/MDS/Proiect_MDS/Views/Orders/Index.cshtml]
+[C:/Users/Svico/Downloads/e-Shop-er-main/proiect mds/Views/Orders/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Toni/Desktop/Proiecte/MDS/Proiect_MDS/Views/Products/Edit.cshtml]
+[C:/Users/Svico/Downloads/e-Shop-er-main/proiect mds/Views/Products/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Toni/Desktop/Proiecte/MDS/Proiect_MDS/Views/Products/Index.cshtml]
+[C:/Users/Svico/Downloads/e-Shop-er-main/proiect mds/Views/Products/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Toni/Desktop/Proiecte/MDS/Proiect_MDS/Views/Products/New.cshtml]
+[C:/Users/Svico/Downloads/e-Shop-er-main/proiect mds/Views/Products/New.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcTmV3LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Toni/Desktop/Proiecte/MDS/Proiect_MDS/Views/Products/Show.cshtml]
+[C:/Users/Svico/Downloads/e-Shop-er-main/proiect mds/Views/Products/Show.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcU2hvdy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Toni/Desktop/Proiecte/MDS/Proiect_MDS/Views/Shared/Error.cshtml]
+[C:/Users/Svico/Downloads/e-Shop-er-main/proiect mds/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Toni/Desktop/Proiecte/MDS/Proiect_MDS/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/Svico/Downloads/e-Shop-er-main/proiect mds/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Toni/Desktop/Proiecte/MDS/Proiect_MDS/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Svico/Downloads/e-Shop-er-main/proiect mds/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Toni/Desktop/Proiecte/MDS/Proiect_MDS/Views/Users/Create.cshtml]
+[C:/Users/Svico/Downloads/e-Shop-er-main/proiect mds/Views/Users/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Toni/Desktop/Proiecte/MDS/Proiect_MDS/Views/Users/Delete.cshtml]
+[C:/Users/Svico/Downloads/e-Shop-er-main/proiect mds/Views/Users/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Toni/Desktop/Proiecte/MDS/Proiect_MDS/Views/Users/Details.cshtml]
+[C:/Users/Svico/Downloads/e-Shop-er-main/proiect mds/Views/Users/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Toni/Desktop/Proiecte/MDS/Proiect_MDS/Views/Users/Edit.cshtml]
+[C:/Users/Svico/Downloads/e-Shop-er-main/proiect mds/Views/Users/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Toni/Desktop/Proiecte/MDS/Proiect_MDS/Views/Users/Index.cshtml]
+[C:/Users/Svico/Downloads/e-Shop-er-main/proiect mds/Views/Users/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Toni/Desktop/Proiecte/MDS/Proiect_MDS/Views/_ViewImports.cshtml]
+[C:/Users/Svico/Downloads/e-Shop-er-main/proiect mds/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Toni/Desktop/Proiecte/MDS/Proiect_MDS/Views/_ViewStart.cshtml]
+[C:/Users/Svico/Downloads/e-Shop-er-main/proiect mds/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Toni/Desktop/Proiecte/MDS/Proiect_MDS/Views/Shared/_Layout.cshtml]
+[C:/Users/Svico/Downloads/e-Shop-er-main/proiect mds/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-n2f8fohmce

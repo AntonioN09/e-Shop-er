@@ -22,7 +22,7 @@ namespace EShop.Controllers
         public IActionResult Index()
 
         {
-            // get all products
+            // toate produsele 
             var products = from product in db.Products
                            orderby product.Name
                            select product;
