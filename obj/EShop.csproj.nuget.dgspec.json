@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Svico\\Downloads\\e-Shop-er-main\\proiect mds\\EShop.csproj": {}
+    "C:\\Users\\Toni\\Desktop\\Proiecte\\MDS\\Proiect_MDS\\EShop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Svico\\Downloads\\e-Shop-er-main\\proiect mds\\EShop.csproj": {
+    "C:\\Users\\Toni\\Desktop\\Proiecte\\MDS\\Proiect_MDS\\EShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Svico\\Downloads\\e-Shop-er-main\\proiect mds\\EShop.csproj",
+        "projectUniqueName": "C:\\Users\\Toni\\Desktop\\Proiecte\\MDS\\Proiect_MDS\\EShop.csproj",
         "projectName": "EShop",
-        "projectPath": "C:\\Users\\Svico\\Downloads\\e-Shop-er-main\\proiect mds\\EShop.csproj",
-        "packagesPath": "C:\\Users\\Svico\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Svico\\Downloads\\e-Shop-er-main\\proiect mds\\obj\\",
+        "projectPath": "C:\\Users\\Toni\\Desktop\\Proiecte\\MDS\\Proiect_MDS\\EShop.csproj",
+        "packagesPath": "C:\\Users\\Toni\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Toni\\Desktop\\Proiecte\\MDS\\Proiect_MDS\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Svico\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Toni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -64,6 +69,10 @@
               "target": "Package",
               "version": "[7.0.7, )"
             },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.7, )"
@@ -74,9 +83,23 @@
               "target": "Package",
               "version": "[7.0.7, )"
             },
+            "Microsoft.TestPlatform.TestHost": {
+              "target": "Package",
+              "version": "[17.6.2, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[7.0.7, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
             }
           },
           "imports": [
@@ -98,7 +121,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
