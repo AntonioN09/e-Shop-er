@@ -293,3 +293,118 @@ body {
 .last-commands li {
   margin-bottom: 5px;
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#imggeanta1,
+#imggeanta2,
+#imggeanta3 {
+    width: 30%;
+    height: 30%;
+}
+
+#imgtop1,
+#imgtop2,
+#imgtop3,
+#imgtop4,
+#imgtop5,
+#imgtop6 {
+    width: 30%;
+    height: 30%;
+}
+
+#imgrochie1,
+#imgrochie2,
+#imgrochie3,
+#imgrochie4,
+#imgrochie5 {
+    width: 30%;
+    height: 30%;
+}
+
+#imgpantofi1,
+#imgpantofi2,
+#imgpantofi3,
+#imgpantofi4,
+#imgpantofi5 {
+    width: 30%;
+    height: 30%;
+}
+
+#imgfusta1,
+#imgfusta2 {
+    width: 30%;
+    height: 30%;
+}
+
+.subtitlu-shop {
+    margin-left: 10%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    line-height: 0;
+}
+/* Form container */
+form {
+    width: 400px;
+    margin: 0 auto;
+}
+
+    /* Input field styles */
+    form input[type="text"],
+    form input[type="password"],
+    form input[type="email"],
+    form input[type="number"],
+    form textarea {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        font-size: 16px;
+        transition: box-shadow 0.3s ease;
+    }
+
+        /* Input field focus state */
+        form input[type="text"]:focus,
+        form input[type="password"]:focus,
+        form input[type="email"]:focus,
+        form input[type="number"]:focus,
+        form textarea:focus {
+            outline: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+    /* Placeholder styles */
+    form ::placeholder {
+        color: #999;
+    }
+
+    /* Optional: Add more custom styles */
+    /* Example: Change background color on hover */
+    form input:hover,
+    form textarea:hover {
+        background-color: #f5f5f5;
+    }
+
+    /* Submit button styles */
+    form input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #4caf50;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+        /* Submit button hover style */
+        form input[type="submit"]:hover {
+            background-color: #45a049;
+        }

@@ -33,7 +33,7 @@ namespace EShop.Controllers
         }
 
         //find product by id
-        public ActionResult Show(int Id)
+        public ActionResult Show(Guid Id)
         {
             Product product = db.Products.Find(Id);
             ViewBag.Student = product;
@@ -74,7 +74,7 @@ namespace EShop.Controllers
         }
 
         // modify a product by id
-        public IActionResult Edit(int Id)
+        public IActionResult Edit(Guid Id)
         {
             Product product = db.Products.Find(Id);
             ViewBag.Product = product;
@@ -82,7 +82,7 @@ namespace EShop.Controllers
         }
 
         [HttpPost]
-        public ActionResult Edit(int Id, Product requestProduct)
+        public ActionResult Edit(Guid Id, Product requestProduct)
         {
             Product product = db.Products.Find(Id);
             try
