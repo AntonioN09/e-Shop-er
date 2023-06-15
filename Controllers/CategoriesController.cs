@@ -28,7 +28,7 @@ namespace EShop.Controllers
         }
 
         // GET: Categories/Details/5
-        public async Task<IActionResult> Details(int? id)
+        public async Task<IActionResult> Details(Guid? id)
         {
             if (id == null || _context.Categories == null)
             {
@@ -88,7 +88,7 @@ namespace EShop.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Count,CategoryName")] Category category)
+        public async Task<IActionResult> Edit(Guid id, [Bind("Id,Count,CategoryName")] Category category)
         {
             if (id != category.Id)
             {
@@ -119,7 +119,7 @@ namespace EShop.Controllers
         }
 
         // GET: Categories/Delete/5
-        public async Task<IActionResult> Delete(int? id)
+        public async Task<IActionResult> Delete(Guid? id)
         {
             if (id == null || _context.Categories == null)
             {
@@ -155,7 +155,7 @@ namespace EShop.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        private bool CategoryExists(int id)
+        private bool CategoryExists(Guid id)
         {
           return (_context.Categories?.Any(e => e.Id == id)).GetValueOrDefault();
         }

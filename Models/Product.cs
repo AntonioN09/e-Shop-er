@@ -6,7 +6,7 @@ namespace EShop.Models
     public class Product
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Id { get; set; }
+        public Guid Id { get; set; }
 
         [Required(ErrorMessage = "Numele este obligatoriu")]
         [StringLength(100, ErrorMessage = "Numele nu poate avea mai mult de 100 de caractere")]
@@ -22,7 +22,7 @@ namespace EShop.Models
         [Url]
         public string? Photo { get; set; }
 
-        public int? CategoryId { get; set; }
+        public Guid? CategoryId { get; set; }
 
         public virtual Category? Category { get; set; }
 

@@ -27,7 +27,7 @@ namespace EShop.Controllers
         }
 
         // GET: Carts/Details/5
-        public async Task<IActionResult> Details(int? id)
+        public async Task<IActionResult> Details(Guid? id)
         {
             if (id == null || _context.Carts == null)
             {
@@ -91,7 +91,7 @@ namespace EShop.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,UserId,Count")] Cart cart)
+        public async Task<IActionResult> Edit(Guid id, [Bind("Id,UserId,Count")] Cart cart)
         {
             if (id != cart.Id)
             {
@@ -123,7 +123,7 @@ namespace EShop.Controllers
         }
 
         // GET: Carts/Delete/5
-        public async Task<IActionResult> Delete(int? id)
+        public async Task<IActionResult> Delete(Guid? id)
         {
             if (id == null || _context.Carts == null)
             {
@@ -160,12 +160,12 @@ namespace EShop.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        private bool CartExists(int id)
+        private bool CartExists(Guid id)
         {
           return (_context.Carts?.Any(e => e.Id == id)).GetValueOrDefault();
         }
 
-        public async Task<IActionResult> RemoveFromCart(int? OrderId)
+        public async Task<IActionResult> RemoveFromCart(Guid? OrderId)
         {
             /*   var order = await _context.Orders
                    .Include(o => o.Cart)
@@ -183,9 +183,9 @@ namespace EShop.Controllers
             return View(cart);
         }
 
-        public async Task<IActionResult> FinishOrder(int? OrderId)
+        public async Task<IActionResult> FinishOrder(Guid? OrderId)
         {
-            RemoveFromCart(OrderId);
+            await RemoveFromCart(OrderId);
 
             var order = _context.Orders.Find(OrderId);
 

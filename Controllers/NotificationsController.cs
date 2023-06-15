@@ -28,7 +28,7 @@ namespace EShop.Controllers
         }
 
         // GET: Notifications/Details/5
-        public async Task<IActionResult> Details(int? id)
+        public async Task<IActionResult> Details(Guid? id)
         {
             if (id == null || _context.Notifications == null)
             {
@@ -88,7 +88,7 @@ namespace EShop.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Title,Description,IsActive,CreatedDate")] Notification notification)
+        public async Task<IActionResult> Edit(Guid id, [Bind("Id,Title,Description,IsActive,CreatedDate")] Notification notification)
         {
             if (id != notification.Id)
             {
@@ -119,7 +119,7 @@ namespace EShop.Controllers
         }
 
         // GET: Notifications/Delete/5
-        public async Task<IActionResult> Delete(int? id)
+        public async Task<IActionResult> Delete(Guid? id)
         {
             if (id == null || _context.Notifications == null)
             {
@@ -155,7 +155,7 @@ namespace EShop.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        private bool NotificationExists(int id)
+        private bool NotificationExists(Guid id)
         {
           return (_context.Notifications?.Any(e => e.Id == id)).GetValueOrDefault();
         }

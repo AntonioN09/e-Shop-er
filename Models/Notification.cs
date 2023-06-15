@@ -5,7 +5,7 @@ namespace EShop.Models
     public class Notification
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Id { get; set; }
+        public Guid Id { get; set; }
         
         //Used to express what kind of notification: system/discount/informative
         public String? Title { get; set; }

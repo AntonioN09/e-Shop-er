@@ -27,7 +27,7 @@ namespace EShop.Controllers
         }
 
         // GET: Histories/Details/5
-        public async Task<IActionResult> Details(int? id)
+        public async Task<IActionResult> Details(Guid? id)
         {
             if (id == null || _context.Histories == null)
             {
@@ -91,7 +91,7 @@ namespace EShop.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,UserId")] History history)
+        public async Task<IActionResult> Edit(Guid id, [Bind("Id,UserId")] History history)
         {
             if (id != history.Id)
             {
@@ -123,7 +123,7 @@ namespace EShop.Controllers
         }
 
         // GET: Histories/Delete/5
-        public async Task<IActionResult> Delete(int? id)
+        public async Task<IActionResult> Delete(Guid? id)
         {
             if (id == null || _context.Histories == null)
             {
@@ -160,7 +160,7 @@ namespace EShop.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        private bool HistoryExists(int id)
+        private bool HistoryExists(Guid id)
         {
           return (_context.Histories?.Any(e => e.Id == id)).GetValueOrDefault();
         }

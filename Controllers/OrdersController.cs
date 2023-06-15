@@ -27,7 +27,7 @@ namespace EShop.Controllers
         }
 
         // GET: Orders/Details/5
-        public async Task<IActionResult> Details(int? id)
+        public async Task<IActionResult> Details(Guid? id)
         {
             if (id == null || _context.Orders == null)
             {
@@ -91,7 +91,7 @@ namespace EShop.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,CreatedDate,UserId,ProductId")] Order order)
+        public async Task<IActionResult> Edit(Guid id, [Bind("Id,CreatedDate,UserId,ProductId")] Order order)
         {
             if (id != order.Id)
             {
@@ -123,7 +123,7 @@ namespace EShop.Controllers
         }
 
         // GET: Orders/Delete/5
-        public async Task<IActionResult> Delete(int? id)
+        public async Task<IActionResult> Delete(Guid? id)
         {
             if (id == null || _context.Orders == null)
             {
@@ -160,12 +160,12 @@ namespace EShop.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        private bool OrderExists(int id)
+        private bool OrderExists(Guid id)
         {
           return (_context.Orders?.Any(e => e.Id == id)).GetValueOrDefault();
         }
 
-        public async Task<IActionResult> GetOrdersOfProduct(int ProductId)
+        public async Task<IActionResult> GetOrdersOfProduct(Guid ProductId)
         {
             var applicationDbContext = _context.Orders.Include(o => o.ProductId == ProductId);
             return View(await applicationDbContext.ToListAsync());

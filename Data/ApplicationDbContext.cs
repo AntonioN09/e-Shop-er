@@ -13,7 +13,7 @@ namespace EShop.Data
         }
         //create database context
         public DbSet<Product> Products { get; set; }
-        public DbSet<ApplicationUser> Users { get; set; }
+        public DbSet<User> Users { get; set; }
         public DbSet<Cart> Carts { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<History> Histories { get; set; }
@@ -63,9 +63,6 @@ namespace EShop.Data
                 .HasMany(c => c.Products)
                 .WithOne(p => p.Category);
         }
-
-        //add relations to database
-        public DbSet<EShop.Models.ApplicationUserRole> ApplicationUserRole { get; set; } = default!;
 
         //add relations to database
         public DbSet<EShop.Models.User> User { get; set; } = default!;

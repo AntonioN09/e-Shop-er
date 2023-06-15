@@ -7,7 +7,7 @@ namespace EShop.Models
     public class Category
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Id { get; set; }
+        public Guid Id { get; set; }
         public int? Count { get; set; }
 
         [Required(ErrorMessage = "Numele categoriei este obligatoriu")]
