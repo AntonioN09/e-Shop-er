@@ -50,7 +50,7 @@ namespace EShop.Services.UserServices
 
         public UserAuthResponseDto Authenticate(UserAuthRequestDto model)
         {
-            var manager = _userRepository.FindByName(model.Name);
+            var manager = _userRepository.FindByName(model.FirstName);
             if (manager == null || !BCryptNet.Verify(model.Password, manager.PasswordHash))
             {
                 return null;

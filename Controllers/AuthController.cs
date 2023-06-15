@@ -22,36 +22,36 @@ namespace EShop.Controllers
             _userService = userService;
         }
 
-        [Authorization(Role.Admin)]
-        [HttpPost("create-user")]
-        public async Task<IActionResult> CreateUser(UserAuthRequestDto user)
+        [HttpGet("Logare")]
+        public IActionResult Logare()
         {
-            await _userService.Create(user);
-            return Ok();
+            var viewModel = new UserAuthRequestDto();
+            return View(viewModel);
         }
 
-        [Authorization(Role.User)]
-        [HttpPost("login-user")]
-        public IActionResult LoginManager(UserAuthRequestDto user)
+        [HttpGet("Inregistrare")]
+        public IActionResult Inregistrare()
+        {
+            var viewModel = new UserAuthRequestDto();
+            return View(viewModel);
+        }
+
+        [HttpPost("CreateUser")]
+        public async Task<IActionResult> CreateUser([FromForm] UserAuthRequestDto user)
+        {
+            await _userService.Create(user);
+            return View("Inregistrare");
+        }
+
+        [HttpPost("LoginUser")]
+        public IActionResult LoginUser([FromForm] UserAuthRequestDto user)
         {
             var response = _userService.Authenticate(user);
             if (response == null)
             {
                 return BadRequest("Username or password is invalid!");
             }
-            return Ok(response);
-        }
-
-        [HttpGet("Logare")]
-        public IActionResult Logare()
-        {
-            return View();
-        }
-
-        [HttpGet("Inregistrare")]
-        public IActionResult Inregistrare()
-        {
-            return View();
+            return View("Logare");
         }
     }
 }

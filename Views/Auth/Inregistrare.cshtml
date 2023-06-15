@@ -1,12 +1,16 @@
-﻿@{
+﻿@using EShop.Models.DTOs;
+@model UserAuthRequestDto
+@{
     ViewData["Title"] = "Register Page";
 }
 
 <h2>Inregistrare</h2>
-<form>
-    <label for="username">Username:</label>
-    <input type="text" id="username" name="username"><br><br>
-    <label for="password">Parola:</label>
-    <input type="password" id="password" name="password"><br><br>
+<form method="post" asp-controller="Auth" asp-action="CreateUser">
+    <label asp-for="FirstName">FirstName:</label>
+    <input asp-for="FirstName" type="text" name="FirstName"><br><br>
+    <label asp-for="LastName">LastName:</label>
+    <input asp-for="LastName" type="text" name="LastName"><br><br>
+    <label asp-for="Password">Parola:</label>
+    <input asp-for="Password" id="password" name="Password"><br><br>
     <input type="submit" value="Inregistrare">
 </form>

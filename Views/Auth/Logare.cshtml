@@ -1,12 +1,16 @@
-﻿@{
+﻿@using EShop.Models.DTOs;
+@model UserAuthRequestDto
+@{
     ViewData["Title"] = "Login Page";
 }
 
 <h2>Logare</h2>
-<form>
-    <label for="username">Username:</label>
-    <input type="text" id="username" name="username"><br><br>
-    <label for="password">Parola:</label>
-    <input type="password" id="password" name="password"><br><br>
-    <input type="submit" value="Logare">
+<form method="post" asp-controller="Auth" asp-action="LoginUser">
+    <label asp-for="FirstName">FirstName:</label>
+    <input asp-for="FirstName" type="text" name="FirstName"><br><br>
+    <label asp-for="LastName">LastName:</label>
+    <input asp-for="LastName" type="text" name="LastName"><br><br>
+    <label asp-for="Password">Parola:</label>
+    <input asp-for="Password" id="password" name="Password"><br><br>
+    <input type="submit" value="Inregistrare">
 </form>

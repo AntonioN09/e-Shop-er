@@ -184,7 +184,7 @@ namespace EShop.Controllers
 
         public UserAuthResponseDto Authenticate(UserAuthRequestDto model)
         {
-            var manager = FindByName(model.Name);
+            var manager = FindByName(model.FirstName);
             if (manager == null || !BCryptNet.Verify(model.Password, manager.PasswordHash))
             {
                 return null;
