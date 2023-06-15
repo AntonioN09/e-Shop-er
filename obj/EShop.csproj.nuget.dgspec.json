@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Toni\\Desktop\\Proiecte\\MDS\\Proiect_MDS\\EShop.csproj": {}
+    "C:\\Users\\dantu\\Desktop\\Facultate\\Anul 2 Sem 2\\MDS\\Proiect MDS\\EShop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Toni\\Desktop\\Proiecte\\MDS\\Proiect_MDS\\EShop.csproj": {
+    "C:\\Users\\dantu\\Desktop\\Facultate\\Anul 2 Sem 2\\MDS\\Proiect MDS\\EShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Toni\\Desktop\\Proiecte\\MDS\\Proiect_MDS\\EShop.csproj",
+        "projectUniqueName": "C:\\Users\\dantu\\Desktop\\Facultate\\Anul 2 Sem 2\\MDS\\Proiect MDS\\EShop.csproj",
         "projectName": "EShop",
-        "projectPath": "C:\\Users\\Toni\\Desktop\\Proiecte\\MDS\\Proiect_MDS\\EShop.csproj",
-        "packagesPath": "C:\\Users\\Toni\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Toni\\Desktop\\Proiecte\\MDS\\Proiect_MDS\\obj\\",
+        "projectPath": "C:\\Users\\dantu\\Desktop\\Facultate\\Anul 2 Sem 2\\MDS\\Proiect MDS\\EShop.csproj",
+        "packagesPath": "C:\\Users\\dantu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dantu\\Desktop\\Facultate\\Anul 2 Sem 2\\MDS\\Proiect MDS\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Toni\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\dantu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,64 +39,6 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "dependencies": {
-            "AutoMapper": {
-              "target": "Package",
-              "version": "[12.0.1, )"
-            },
-            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
-              "target": "Package",
-              "version": "[12.0.1, )"
-            },
-            "BCrypt.Net-Core": {
-              "target": "Package",
-              "version": "[1.6.0, )"
-            },
-            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[7.0.5, )"
-            },
-            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[7.0.7, )"
-            },
-            "Microsoft.AspNetCore.Identity.UI": {
-              "target": "Package",
-              "version": "[7.0.7, )"
-            },
-            "Microsoft.EntityFrameworkCore.InMemory": {
-              "target": "Package",
-              "version": "[7.0.7, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[7.0.7, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[7.0.7, )"
-            },
-            "Microsoft.TestPlatform.TestHost": {
-              "target": "Package",
-              "version": "[17.6.2, )"
-            },
-            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
-              "target": "Package",
-              "version": "[7.0.7, )"
-            },
-            "xunit": {
-              "target": "Package",
-              "version": "[2.4.2, )"
-            },
-            "xunit.runner.visualstudio": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.4.5, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -113,15 +50,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
