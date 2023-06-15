@@ -1,0 +1,266 @@
+{
+  "SerializedFilePath": "c:\\Users\\dantu\\Desktop\\Facultate\\Anul 2 Sem 2\\MDS\\Proiect MDS\\obj\\Debug\\net7.0\\project.razor.json",
+  "FilePath": "c:\\Users\\dantu\\Desktop\\Facultate\\Anul 2 Sem 2\\MDS\\Proiect MDS\\EShop.csproj",
+  "Configuration": {
+    "ConfigurationName": "MVC-3.0",
+    "LanguageVersion": "6.0",
+    "Extensions": [
+      {
+        "ExtensionName": "MVC-3.0"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": {
+    "TagHelpers": [],
+    "CSharpLanguageVersion": 1100
+  },
+  "RootNamespace": "EShop",
+  "Documents": [
+    {
+      "FilePath": "c:\\Users\\dantu\\Desktop\\Facultate\\Anul 2 Sem 2\\MDS\\Proiect MDS\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dantu\\Desktop\\Facultate\\Anul 2 Sem 2\\MDS\\Proiect MDS\\Views\\Categories\\Create.cshtml",
+      "TargetPath": "Views\\Categories\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dantu\\Desktop\\Facultate\\Anul 2 Sem 2\\MDS\\Proiect MDS\\Views\\Histories\\Index.cshtml",
+      "TargetPath": "Views\\Histories\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dantu\\Desktop\\Facultate\\Anul 2 Sem 2\\MDS\\Proiect MDS\\Views\\Orders\\Create.cshtml",
+      "TargetPath": "Views\\Orders\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dantu\\Desktop\\Facultate\\Anul 2 Sem 2\\MDS\\Proiect MDS\\Views\\Carts\\Details.cshtml",
+      "TargetPath": "Views\\Carts\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dantu\\Desktop\\Facultate\\Anul 2 Sem 2\\MDS\\Proiect MDS\\Views\\Users\\Details.cshtml",
+      "TargetPath": "Views\\Users\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dantu\\Desktop\\Facultate\\Anul 2 Sem 2\\MDS\\Proiect MDS\\Views\\Orders\\Details.cshtml",
+      "TargetPath": "Views\\Orders\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dantu\\Desktop\\Facultate\\Anul 2 Sem 2\\MDS\\Proiect MDS\\Views\\Histories\\Edit.cshtml",
+      "TargetPath": "Views\\Histories\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dantu\\Desktop\\Facultate\\Anul 2 Sem 2\\MDS\\Proiect MDS\\Views\\Notifications\\Create.cshtml",
+      "TargetPath": "Views\\Notifications\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dantu\\Desktop\\Facultate\\Anul 2 Sem 2\\MDS\\Proiect MDS\\Views\\Acquisitions\\Edit.cshtml",
+      "TargetPath": "Views\\Acquisitions\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dantu\\Desktop\\Facultate\\Anul 2 Sem 2\\MDS\\Proiect MDS\\Views\\Products\\Index.cshtml",
+      "TargetPath": "Views\\Products\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dantu\\Desktop\\Facultate\\Anul 2 Sem 2\\MDS\\Proiect MDS\\Views\\Categories\\Delete.cshtml",
+      "TargetPath": "Views\\Categories\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dantu\\Desktop\\Facultate\\Anul 2 Sem 2\\MDS\\Proiect MDS\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dantu\\Desktop\\Facultate\\Anul 2 Sem 2\\MDS\\Proiect MDS\\Views\\Carts\\Edit.cshtml",
+      "TargetPath": "Views\\Carts\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dantu\\Desktop\\Facultate\\Anul 2 Sem 2\\MDS\\Proiect MDS\\Views\\Categories\\Edit.cshtml",
+      "TargetPath": "Views\\Categories\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dantu\\Desktop\\Facultate\\Anul 2 Sem 2\\MDS\\Proiect MDS\\Views\\Carts\\Create.cshtml",
+      "TargetPath": "Views\\Carts\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dantu\\Desktop\\Facultate\\Anul 2 Sem 2\\MDS\\Proiect MDS\\Views\\Acquisitions\\Delete.cshtml",
+      "TargetPath": "Views\\Acquisitions\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dantu\\Desktop\\Facultate\\Anul 2 Sem 2\\MDS\\Proiect MDS\\Views\\Histories\\Delete.cshtml",
+      "TargetPath": "Views\\Histories\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dantu\\Desktop\\Facultate\\Anul 2 Sem 2\\MDS\\Proiect MDS\\Views\\Products\\New.cshtml",
+      "TargetPath": "Views\\Products\\New.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dantu\\Desktop\\Facultate\\Anul 2 Sem 2\\MDS\\Proiect MDS\\Views\\Orders\\Edit.cshtml",
+      "TargetPath": "Views\\Orders\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dantu\\Desktop\\Facultate\\Anul 2 Sem 2\\MDS\\Proiect MDS\\Views\\Notifications\\Index.cshtml",
+      "TargetPath": "Views\\Notifications\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dantu\\Desktop\\Facultate\\Anul 2 Sem 2\\MDS\\Proiect MDS\\Views\\Shared\\_LoginPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_LoginPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dantu\\Desktop\\Facultate\\Anul 2 Sem 2\\MDS\\Proiect MDS\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dantu\\Desktop\\Facultate\\Anul 2 Sem 2\\MDS\\Proiect MDS\\Views\\Acquisitions\\Create.cshtml",
+      "TargetPath": "Views\\Acquisitions\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dantu\\Desktop\\Facultate\\Anul 2 Sem 2\\MDS\\Proiect MDS\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dantu\\Desktop\\Facultate\\Anul 2 Sem 2\\MDS\\Proiect MDS\\Views\\Acquisitions\\Index.cshtml",
+      "TargetPath": "Views\\Acquisitions\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dantu\\Desktop\\Facultate\\Anul 2 Sem 2\\MDS\\Proiect MDS\\Views\\Histories\\Create.cshtml",
+      "TargetPath": "Views\\Histories\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dantu\\Desktop\\Facultate\\Anul 2 Sem 2\\MDS\\Proiect MDS\\Views\\Users\\Index.cshtml",
+      "TargetPath": "Views\\Users\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dantu\\Desktop\\Facultate\\Anul 2 Sem 2\\MDS\\Proiect MDS\\Views\\Orders\\Index.cshtml",
+      "TargetPath": "Views\\Orders\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dantu\\Desktop\\Facultate\\Anul 2 Sem 2\\MDS\\Proiect MDS\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dantu\\Desktop\\Facultate\\Anul 2 Sem 2\\MDS\\Proiect MDS\\Views\\Users\\Create.cshtml",
+      "TargetPath": "Views\\Users\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dantu\\Desktop\\Facultate\\Anul 2 Sem 2\\MDS\\Proiect MDS\\Views\\Orders\\Delete.cshtml",
+      "TargetPath": "Views\\Orders\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dantu\\Desktop\\Facultate\\Anul 2 Sem 2\\MDS\\Proiect MDS\\Views\\Categories\\Details.cshtml",
+      "TargetPath": "Views\\Categories\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dantu\\Desktop\\Facultate\\Anul 2 Sem 2\\MDS\\Proiect MDS\\Views\\Users\\Edit.cshtml",
+      "TargetPath": "Views\\Users\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dantu\\Desktop\\Facultate\\Anul 2 Sem 2\\MDS\\Proiect MDS\\Views\\Auth\\Inregistrare.cshtml",
+      "TargetPath": "Views\\Auth\\Inregistrare.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dantu\\Desktop\\Facultate\\Anul 2 Sem 2\\MDS\\Proiect MDS\\Views\\Notifications\\Edit.cshtml",
+      "TargetPath": "Views\\Notifications\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dantu\\Desktop\\Facultate\\Anul 2 Sem 2\\MDS\\Proiect MDS\\Views\\Histories\\Details.cshtml",
+      "TargetPath": "Views\\Histories\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dantu\\Desktop\\Facultate\\Anul 2 Sem 2\\MDS\\Proiect MDS\\Views\\Categories\\Index.cshtml",
+      "TargetPath": "Views\\Categories\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dantu\\Desktop\\Facultate\\Anul 2 Sem 2\\MDS\\Proiect MDS\\Views\\Acquisitions\\Details.cshtml",
+      "TargetPath": "Views\\Acquisitions\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dantu\\Desktop\\Facultate\\Anul 2 Sem 2\\MDS\\Proiect MDS\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dantu\\Desktop\\Facultate\\Anul 2 Sem 2\\MDS\\Proiect MDS\\Views\\Notifications\\Delete.cshtml",
+      "TargetPath": "Views\\Notifications\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dantu\\Desktop\\Facultate\\Anul 2 Sem 2\\MDS\\Proiect MDS\\Views\\Users\\Delete.cshtml",
+      "TargetPath": "Views\\Users\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dantu\\Desktop\\Facultate\\Anul 2 Sem 2\\MDS\\Proiect MDS\\Views\\Notifications\\Details.cshtml",
+      "TargetPath": "Views\\Notifications\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dantu\\Desktop\\Facultate\\Anul 2 Sem 2\\MDS\\Proiect MDS\\Views\\Carts\\Index.cshtml",
+      "TargetPath": "Views\\Carts\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dantu\\Desktop\\Facultate\\Anul 2 Sem 2\\MDS\\Proiect MDS\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dantu\\Desktop\\Facultate\\Anul 2 Sem 2\\MDS\\Proiect MDS\\Views\\Carts\\Delete.cshtml",
+      "TargetPath": "Views\\Carts\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dantu\\Desktop\\Facultate\\Anul 2 Sem 2\\MDS\\Proiect MDS\\Views\\Products\\Show.cshtml",
+      "TargetPath": "Views\\Products\\Show.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dantu\\Desktop\\Facultate\\Anul 2 Sem 2\\MDS\\Proiect MDS\\Views\\Products\\Edit.cshtml",
+      "TargetPath": "Views\\Products\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dantu\\Desktop\\Facultate\\Anul 2 Sem 2\\MDS\\Proiect MDS\\Views\\Auth\\Logare.cshtml",
+      "TargetPath": "Views\\Auth\\Logare.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
+  "SerializationFormat": "0.3"
+}
