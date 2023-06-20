@@ -163,8 +163,6 @@ C:\Users\Toni\Desktop\Proiecte\MDS\Proiect_MDS\obj\Debug\net7.0\refint\EShop.dll
 C:\Users\Toni\Desktop\Proiecte\MDS\Proiect_MDS\obj\Debug\net7.0\EShop.pdb
 C:\Users\Toni\Desktop\Proiecte\MDS\Proiect_MDS\obj\Debug\net7.0\EShop.genruntimeconfig.cache
 C:\Users\Toni\Desktop\Proiecte\MDS\Proiect_MDS\obj\Debug\net7.0\ref\EShop.dll
-C:\Users\Toni\Desktop\Proiecte\MDS\Proiect_MDS\bin\Debug\net7.0\about project\Front-End\startbootstrap-shop-homepage-master\package-lock.json
-C:\Users\Toni\Desktop\Proiecte\MDS\Proiect_MDS\bin\Debug\net7.0\about project\Front-End\startbootstrap-shop-homepage-master\package.json
 C:\Users\Toni\Desktop\Proiecte\MDS\Proiect_MDS\bin\Debug\net7.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\Toni\Desktop\Proiecte\MDS\Proiect_MDS\bin\Debug\net7.0\Microsoft.Build.dll
 C:\Users\Toni\Desktop\Proiecte\MDS\Proiect_MDS\bin\Debug\net7.0\Microsoft.Build.Framework.dll
